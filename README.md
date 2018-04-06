@@ -37,9 +37,9 @@ The steps of reference integration constructing are listed below.
 * Fill the form.
 
     + Account Provider: ```“org.forgerock.openam.authentication.modules.common.mapping.DefaultAccountProvider”```
-    + Account Mapper: ```“org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper|*| winkk-“```
+    + Account Mapper: ```“org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper|*|winkk-“```
     + Account Mapper Configuration: ```“id=iplanet-am-user-alias-list”```
-    + Attribute Mapper: ```“org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper| iplanet-am-user-alias-list|winkk-“```
+    + Attribute Mapper: ```“org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper|iplanet-am-user-alias-list|winkk-“```
     + Attribute Mapper Configuration: ```“personal.last_name=sn id=uid email.email=mail personal.nickname=cn personal.first_name=givenName”```
 
 * Click “Save Changes”.
@@ -62,7 +62,7 @@ The steps of reference integration constructing are listed below.
 
 * Click “Save Changes”.
 
-* Go to “Authentication - Chains”.
+* Go to “Authentication - Settings”.
 
 * Go to “User Profile” tab.
 
@@ -84,8 +84,7 @@ The steps of reference integration constructing are listed below.
 * Fill the form “Authentication Chains”.
 
     + Key: ```“Winkk”```
-
-Value: ```“WinkkSocialAuthenticationService”```
+    + Value: ```“WinkkSocialAuthenticationService”```
 
 * Click “(+) add”.
 
