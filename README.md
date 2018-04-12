@@ -72,7 +72,9 @@ The steps of reference integration constructing are listed below.
 
 * Go to “Services”.
 
-* Click “Social Authentication Implementations”.
+* Click “Social Authentication Implementations”. 
+
+* If there is no such entry, click (+) Add a service, and choose a service type “Social Authentication Implementations”.
 
 * Fill the form “Display Names”.
 
